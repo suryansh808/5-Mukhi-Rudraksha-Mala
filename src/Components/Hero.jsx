@@ -23,7 +23,8 @@ useEffect(() => {
 
 
   return (
-    <section className="relative w-full min-h-screen bg-background overflow-hidden">
+    <section className="relative w-full bg-background overflow-hidden">
+         <div className="max-w-[1500px] mx-auto px-6 md:px-12 lg:px-20">
       {/* Subtle background texture */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
@@ -56,7 +57,7 @@ useEffect(() => {
       </nav>
 
       {/* Main Content */}
-      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 pt-12 lg:pt-0 lg:min-h-[calc(100vh-88px)]">
+      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6  md:px-12 lg:px-20 pt-12 lg:pt-0  lg:min-h-[calc(100vh-88px)]">
         {/* Left Content */}
         <div className="flex-1 max-w-2xl space-y-8 text-center lg:text-left">
           {/* Badge */}
@@ -157,6 +158,7 @@ useEffect(() => {
         </div>
       </div>
 
+     </div>
     </section>
   )
 }
